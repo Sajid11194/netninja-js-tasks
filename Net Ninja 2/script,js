@@ -1,0 +1,107 @@
+let age = 4;
+let year = 2022;
+console.log(age,year);
+
+var score = 75;
+console.log(score);
+
+let email = "farhan15-14387@diu.edu.bd";
+console.log(email);
+
+let firstname = "Farhan";
+let lastname = "Sajid";
+let fullname = firstname + " " + lastname ; 
+console.log(fullname);
+
+console.log(fullname[2]);
+console.log(fullname.length);
+
+console.log(fullname.toUpperCase());
+
+let upper = fullname.toUpperCase();
+console.log(upper, fullname)
+
+let lower = fullname.toLocaleLowerCase();
+console.log(lower, fullname);
+
+let index = email.indexOf('@');
+console.log(index);
+
+
+let email2 = "farhan15-14387@diu.edu.bd";
+let result2 = email.replace('farhan','sajid');
+console.log(result2);
+
+let radius = 5;
+const pi = 3.14;
+let result3 = pi * radius**2;
+console.log(result3);
+
+
+let likes = 10; 
+console.log(likes);
+
+
+console.log(5/ 'hello') ;
+console.log(5 * 'hello') ;
+
+
+let result4 = 'the blog has ' + likes + ' likes';
+console.log(result4);
+
+const title = 'Attack on Titan' ;
+const writer = 'Sajid';
+const sold = 30;
+
+
+let result5 = `The manga ${title} written by ${writer} is sold ${sold} times` ;
+console.log(result5);
+
+let html = `
+   <h2> ${title} </h2>
+   <p>Written By ${writer}</p>
+   <span>The manga is sold ${sold} times</span>
+`;
+
+let ninjas = ['sajid','salim','pretty'];
+console.log(ninjas);
+ninjas[1] = 'sujon';
+console.log(ninjas[1]);
+console.log(ninjas);
+console.log(ninjas.length);
+
+let result6 = ninjas.push('sujon');
+console.log(result6)
+console.log(ninjas);
+result6 = ninjas.pop();
+console.log(ninjas);
+
+let age1=null
+console.log(age1,age1+5,`new age ${age1}`)
+
+console.log(true,false,"true","false");
+
+let names=  ['sajid','salim','pretty'];
+console.log(names.includes('pretty'))
+console.log(names.includes('notpretty'))
+
+let age2= 21
+console.log(age2==21,age2===21,age2==20,age2>20,age2!=20,age2=='21')
+
+let newname= 'sajid'
+console.log(newname=='sajid' , newname> 'sajid', newname > 'saji')
+
+let score1='100'
+console.log(Number(newname))
+let newscore1=Number(score1)
+console.log(typeof score,typeof score1,typeof newscore1)
+
+let result7 = Boolean('')
+let result8 = Boolean('aa')
+let result9 = Boolean(0)
+let result10 = Boolean(5)
+
+console.log(result7)
+console.log(result8)
+console.log(result9)
+console.log(result10)
